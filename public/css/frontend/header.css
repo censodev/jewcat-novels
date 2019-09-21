@@ -1,0 +1,177 @@
+#front-header nav {
+	background: transparent;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	box-shadow: 0px 10px 10px #000000;
+
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	z-index: 10;
+}
+
+#front-header nav a {
+	color: #89AAAE;
+	text-align: center;
+}
+
+#front-header #linked-list li:hover {
+	font-weight: bold;
+}
+
+#front-header .navbar-brand img {
+	height: 75px;
+}
+
+#front-header .navbar-brand:hover {
+	color: #89AAAE;
+	transition: 0.3s;
+}
+
+#front-header #linked-list .nav-link {
+	font-size: 25px;
+	margin-left: 20px;
+	min-width: 80px;
+}
+
+#front-header #linked-list li:hover a {
+	color: #BFD4D7;
+}
+
+#front-header #signin-profile .nav-link {
+	margin-left: 20px;
+}
+
+#front-header #signin-profile .user-img {
+	height: 40px;
+	width: 40px;
+	margin-right: 10px;
+}
+
+#front-header #signin-profile .user-img img {
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+}
+
+#front-header #signin-profile .dropdown .dropdown-menu {
+	background: #000000;
+	border: 2px solid #89AAAE;
+	padding: 0px;
+}
+
+#front-header #signin-profile .dropdown .dropdown-menu a {
+	font-size: 20px;
+}
+
+#front-header #signin-profile .dropdown .dropdown-menu a:hover {
+	color: #FFFFFF;
+	background: #89AAAE;
+	transition: 0.3s;
+}
+
+#front-header .faded-mask {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: #000000;
+	opacity: 0.9;
+	z-index: -10000;
+}
+
+#front-header .scale-div {
+	height: 82px;
+}
+
+
+/*MODALS*/
+#front-header .modal .modal-register {
+	max-width: 600px;
+}
+
+#front-header .modal .modal-content {
+	box-shadow: 0px 10px 15px #000000;
+}
+
+#front-header .modal .modal-body {
+	padding: 0px 25px 0px 25px;	
+}
+
+#front-header .modal .modal-body input {
+	font-size: 20px;
+}
+
+#front-header .modal .modal-body .input-group {
+	margin-top: 15px;
+}
+
+#front-header .modal .modal-body .rmbme-fgpwd {
+	margin-top: 15px;
+}
+
+#front-header .modal .modal-body .buttons-group button {
+	margin-top: 15px;
+	height: 45px;
+	border-radius: 5px;
+}
+
+#front-header .modal .modal-body .buttons-group button:hover {
+	opacity: 0.9;
+}
+
+#front-header .modal .modal-body .buttons-group button[disabled]:hover {
+	opacity: 1;
+}
+
+#front-header .modal .modal-body .buttons-group #signin-btn {
+	background-color: #89AAAE;
+	border: 1px solid #89AAAE;
+	color: #FFFFFF;
+}
+
+#front-header .modal .modal-body .buttons-group #register-btn {
+	background-color: #CACACA;
+	border: 1px solid #CACACA;
+	color: #FFFFFF;
+}
+
+
+/*CUSTOM CHECKBOX*/
+#front-header .modal .modal-body .checkbox-container {
+	position: relative;
+	width: 22px;
+	height: 22px;
+	border-radius: 3px;
+	background: #CACACA;
+	top: 5px;
+}
+
+#front-header .modal .modal-body .checkbox-container .origin-checkbox {
+	position: absolute;
+	top: 0px;
+	height: 100%;
+	width: 100%;
+	z-index: 999;
+	opacity: 0;
+}
+
+#front-header .modal .modal-body .checkmask {
+	position: absolute;
+	top: 0px;
+	height: 100%;
+	width: 100%;
+	border-radius: 3px;
+	background: #89AAAE;
+	display: none;
+	color: #FFFFFF;
+	padding: 0px 5px;
+	font-size: 16px;
+}
+
+
+
+
+
+

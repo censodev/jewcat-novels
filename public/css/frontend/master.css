@@ -1,0 +1,71 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+@font-face {
+  	font-family: mainFont;
+  	src: url(Farsan-Regular.ttf);
+  	/*src: url(Montserrat-Regular.ttf);*/
+}
+
+.form-control:focus,
+.btn:focus {
+	outline: none;
+	box-shadow: none;
+}
+
+a {
+	color: #FFFFFF;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+body {
+	background-image: url('../../images/frontend/cat_silhouette_moon.jpg');
+	background-size: 100%;
+	font-family: mainFont;
+	font-size: 20px;
+}
+
+img {
+	object-fit: cover;
+}
+
+.modal-backdrop {
+	z-index: 0;
+}
+
+/*SCROLL BAR*/
+::-webkit-scrollbar {
+  	width: 2px;
+  	height: 2px;
+}
+
+::-webkit-scrollbar-track {
+  	background: #000000; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  	background: #89AAAE; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  	background: #BFD4D7; 
+}
+
+/*SWAL*/
+.swal-title {
+	font-size: 30px;
+}
+
+.swal-text {
+	font-size: 22px;
+}
+
+.swal-button {
+	font-size: 18px;
+}

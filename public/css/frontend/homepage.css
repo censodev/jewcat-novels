@@ -1,0 +1,191 @@
+/*SLIDE*/
+#home-section #carouselNewestNovels .carousel-item {
+	height: 500px;
+}
+
+#home-section #carouselNewestNovels .inner-carousel-item {
+	height: 85%;
+	margin-top: 5%; 
+}
+
+#home-section #carouselNewestNovels .carousel-item img {
+	height: 100%;
+	width: 25%;
+}
+
+#home-section #carouselNewestNovels .novel-overview {
+	width: 50%;
+	position: relative;
+}
+
+#home-section #carouselNewestNovels .overview-container {
+	padding: 25px 40px;
+	height: 100%;
+	overflow-y: hidden;
+	word-break: break-word;
+	color: white;
+}
+
+#home-section #carouselNewestNovels .overview-container h4:hover a {
+	transition: 0.3s;
+	color: #89AAAE;
+}
+
+#home-section #carouselNewestNovels .novel-overview-mask {
+	background: #000000;
+	opacity: 0.9;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: -9999;
+}
+
+#home-section #carouselNewestNovels .rating-container img {
+	height: 22px;
+	width: 40%;
+	object-fit: fill;
+}
+
+#home-section #carouselNewestNovels .add-to-cart-title {
+	display: none;
+}
+
+#home-section #carouselNewestNovels .add-to-cart-btn {
+	position: relative;
+	min-width: 35%;
+	height: 50px;
+	padding: 0px 10px;
+	box-sizing: border-box;
+
+	font-size: 28px;
+	font-weight: bold;
+	color: white;
+	background: #89AAAE;
+	border: 1px solid #89AAAE;
+	border-radius: 7px;
+
+	box-shadow: 0px 10px 10px #000000;
+	opacity: 1;
+}
+
+#home-section #carouselNewestNovels .add-to-cart-btn:hover {
+	opacity: 0.9;
+}
+
+#home-section #carouselNewestNovels .sale-off-title {
+	display: block;
+	position: absolute;
+	right: -20px;
+	top: -15px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	padding: 5px 1px;
+	background: white;
+	border: 2px solid #89AAAE;
+	box-shadow: -3px 3px 15px #000000;
+
+	font-size: 18px;
+	font-weight: 500;
+	color: #556A6C;
+	text-align: center;
+}
+
+#home-section #carouselNewestNovels .sale-off-content {
+	margin-left: 20px;
+	font-style: italic;
+	font-size: 18px;
+}
+
+
+/*NOVELS LIST*/
+#home-section .novels-list {
+	padding-bottom: 30px;
+	margin-top: 80px;
+	position: relative;
+}
+
+#home-section .novels-list .shadow-mask {
+	background-color: #000000;
+	opacity: 0.9;
+	width: 100%;
+	height: 100%;
+
+	position: absolute;
+	top: 0px;
+	z-index: -999;
+}
+
+#home-section .novels-list h3 {
+	color: #FFFFFF;
+	padding-top: 20px;
+	text-align: center;
+}
+
+#home-section .novels-list .novels-list-item {
+	margin-top: 15px;
+	padding-top: 16px;
+	border: 2px solid transparent;
+}
+
+#home-section .novels-list .novels-list-item:hover {
+	border-radius: 5px;
+	border-top-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	border: 2px solid #FFFFFF;
+	transition: 0.5s;
+}
+
+#home-section .novels-list .novels-list-item .img-container {
+	height: 220px;
+}
+
+#home-section .novels-list .novels-list-item img {
+	width: 100%;
+}
+
+#home-section .novels-list .novels-list-item .novel-overview {
+	color: #FFFFFF;
+	padding: 10px 5px;
+}
+
+#home-section .novels-list .novels-list-item .novel-overview label {
+	font-size: 16px;
+	margin-bottom: 0px;
+}
+
+#home-section .novels-list .novels-list-item .novel-overview .rating-container {
+	height: 40px;
+}
+
+#home-section .novels-list .novels-list-item .novel-overview .rating-container img {
+	width: 70%;
+}
+
+#home-section .novels-list .novels-list-item .novel-overview .sale-off-title {
+	display: block;
+	position: absolute;
+	left: 5px;
+	top: 5px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	padding: 5px 1px;
+	background: #FFFFFF;
+	border: 2px solid #89AAAE;
+	box-shadow: 3px 3px 15px #000000;
+
+	font-size: 18px;
+	color: #556A6C;
+	text-align: center;
+}
+
+#home-section .novels-list .novels-list-item .novel-overview .novel-item-price {
+	font-weight: bold;
+	color: #FFB900;
+	margin-bottom: 0px;
+}
+
+#home-section .novels-list .novels-list-item .novel-overview .novel-item-price .price-mask {
+	font-size: 28px;
+}

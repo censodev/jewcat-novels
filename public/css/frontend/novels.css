@@ -1,0 +1,160 @@
+/*HEADER*/
+#front-header #novels-redirector {
+	font-weight: bold;
+	color: #BFD4D7;
+	border-bottom: 3px solid #BFD4D7;
+}
+
+
+/*MASK*/
+#novels-section .novels-list .shadow-mask {
+	background-color: #000000;
+	opacity: 0.9;
+	width: 100%;
+	height: 100%;
+
+	position: absolute;
+	top: 0px;
+	z-index: -999;
+}
+
+
+/*NAV TAGS*/
+#novels-section .novels-list {
+	margin-top: 50px;
+}
+
+#novels-section .novels-list .tags-list {
+	padding-top: 15px;
+	color: #BFD4D7;
+}
+
+#novels-section .novels-list .tags-list .nav-item {
+	border: 2px solid transparent;
+}
+
+#novels-section .novels-list .tags-list .nav-item:hover {
+	border: 2px solid #BFD4D7;
+	border-top-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	border-top-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	background: transparent;
+	transition: 0.5s;
+}
+
+#novels-section .novels-list .tags-list .nav-item-focus {
+	font-weight: bold;
+	background: #BFD4D7;
+	border: 2px solid #BFD4D7;
+	border-top-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+}
+
+#novels-section .novels-list .tags-list .nav-link:hover {
+	color: #FFFFFF;
+}
+
+#novels-section .novels-list .tags-list .nav-link-focus {
+	color: #000000;
+}
+
+
+/*NOVELS LIST ITEMS*/
+#novels-section .novels-list .novels-list-item {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-top: 16px;
+	border: 2px solid transparent;
+}
+
+#novels-section .novels-list .novels-list-item:hover {
+	border-radius: 5px;
+	border-top-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	border: 2px solid #FFFFFF;
+	transition: 0.5s;
+}
+
+#novels-section .novels-list .novels-list-item .img-container {
+	height: 250px;
+}
+
+#novels-section .novels-list .novels-list-item img {
+	width: 100%;
+}
+
+#novels-section .novels-list .novels-list-item .novel-overview {
+	color: #FFFFFF;
+	padding: 10px 5px;
+}
+
+#novels-section .novels-list .novels-list-item .novel-overview label {
+	font-size: 16px;
+	margin-bottom: 0px;
+}
+
+#novels-section .novels-list .novels-list-item .novel-overview .rating-container {
+	height: 40px;
+}
+
+#novels-section .novels-list .novels-list-item .novel-overview .rating-container img {
+	width: 70%;
+}
+
+#novels-section .novels-list .novels-list-item .novel-overview .sale-off-title {
+	display: block;
+	position: absolute;
+	left: 5px;
+	top: 5px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	padding: 5px 1px;
+	background: #FFFFFF;
+	border: 2px solid #89AAAE;
+	box-shadow: 3px 3px 15px #000000;
+
+	font-size: 18px;
+	color: #556A6C;
+	text-align: center;
+}
+
+#novels-section .novels-list .novels-list-item .novel-overview .novel-item-price {
+	font-weight: bold;
+	color: #FFB900;
+	margin-bottom: 0px;
+}
+
+#novels-section .novels-list .novels-list-item .novel-overview .novel-item-price .price-mask {
+	font-size: 28px;
+}
+
+
+/*PAGINATION*/
+#novels-list-pagination .page-link {
+	border-radius: 50%;
+	padding-top: 7px;
+	
+	width: 40px;
+	height: 40px;
+	text-align: center;
+
+	background: transparent;
+	color: #FFFFFF;
+	border: 2px solid transparent;
+}
+
+#novels-list-pagination .page-link:focus {
+	box-shadow: none;
+}
+
+#novels-list-pagination .page-active {
+	background: transparent;
+	border: 2px solid #FFFFFF;
+	font-weight: bold;
+}
+
+#novels-list-pagination .page-link-3dots {
+
+}
